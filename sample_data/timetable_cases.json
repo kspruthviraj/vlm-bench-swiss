@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tt_001",
+    "task": "timetable_qa",
+    "image_path": "sample_data/images/timetable_zurich.png",
+    "question": "What time does the next train to Bern depart from Zürich HB?",
+    "expected_answer": "08:32",
+    "accepted_answers": ["08:32", "8:32", "08.32"],
+    "language": "en"
+  },
+  {
+    "id": "tt_002",
+    "task": "timetable_qa",
+    "image_path": "sample_data/images/timetable_geneva.png",
+    "question": "De quelle voie part le train pour Lausanne?",
+    "expected_answer": "Voie 3",
+    "accepted_answers": ["Voie 3", "voie 3", "3", "Gleis 3"],
+    "language": "fr"
+  },
+  {
+    "id": "tt_003",
+    "task": "timetable_qa",
+    "image_path": "sample_data/images/timetable_bern.png",
+    "question": "Wie lange dauert die Fahrt von Bern nach Luzern?",
+    "expected_answer": "1h05",
+    "accepted_answers": ["1h05", "1:05", "65 Minuten", "65 min"],
+    "language": "de"
+  },
+  {
+    "id": "tt_004",
+    "task": "timetable_qa",
+    "image_path": "sample_data/images/timetable_basel.png",
+    "question": "Is there a direct connection to Interlaken Ost?",
+    "expected_answer": "Yes",
+    "accepted_answers": ["Yes", "yes", "Ja", "ja", "Oui"],
+    "language": "en"
+  },
+  {
+    "id": "tt_005",
+    "task": "timetable_qa",
+    "image_path": "sample_data/images/timetable_lugano.png",
+    "question": "Quale treno va a Milano Centrale?",
+    "expected_answer": "EC 17",
+    "accepted_answers": ["EC 17", "EC17", "EuroCity 17"],
+    "language": "it"
+  }
+]

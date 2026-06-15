@@ -1,0 +1,41 @@
+[
+  {
+    "id": "news_001",
+    "task": "news_description",
+    "image_path": "sample_data/images/swiss_parliament.png",
+    "question": "Describe what is shown in this Swiss news image.",
+    "expected_answer": "The Swiss Federal Parliament (Bundeshaus) in Bern with the Swiss flag flying, photographed during a parliamentary session.",
+    "reference_descriptions": [
+      "The Swiss Federal Parliament building in Bern with the Swiss flag, during a session.",
+      "The Bundeshaus in Bern showing the federal palace with Swiss flags, captured during parliamentary proceedings.",
+      "A photo of the Swiss parliament building in Bern with the national flag flying above."
+    ],
+    "language": "en"
+  },
+  {
+    "id": "news_002",
+    "task": "news_description",
+    "image_path": "sample_data/images/swiss_train_accident.png",
+    "question": "Was ist auf diesem Nachrichtenbild zu sehen?",
+    "expected_answer": "Ein entgleister Zug der SBB in der Nähe von Luzern, mit Rettungskräften vor Ort.",
+    "reference_descriptions": [
+      "Ein entgleister SBB-Zug bei Luzern mit Rettungskräften.",
+      "Die Unfallstelle eines entgleisten Zuges der Schweizerischen Bundesbahnen.",
+      "Ein Zugunglück der SBB mit Rettungsdiensten vor Ort."
+    ],
+    "language": "de"
+  },
+  {
+    "id": "news_003",
+    "task": "news_description",
+    "image_path": "sample_data/images/swiss_alps_event.png",
+    "question": "Que montre cette image d'actualité?",
+    "expected_answer": "Une compétition de ski alpin dans les Alpes suisses avec des spectateurs et des drapeaux suisses.",
+    "reference_descriptions": [
+      "Une course de ski alpin dans les Alpes suisses avec spectateurs.",
+      "Un événement de ski alpin en Suisse avec des drapeaux nationaux.",
+      "Une compétition de ski dans les Alpes avec une foule de spectateurs."
+    ],
+    "language": "fr"
+  }
+]

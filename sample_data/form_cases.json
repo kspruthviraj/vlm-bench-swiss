@@ -1,0 +1,49 @@
+[
+  {
+    "id": "form_001",
+    "task": "form_extraction",
+    "image_path": "sample_data/images/tax_form_2024.png",
+    "question": "Extract all field values from this Swiss tax form.",
+    "expected_answer": {
+      "Nachname": "Müller",
+      "Vorname": "Hans",
+      "Strasse": "Bahnhofstrasse 42",
+      "PLZ": "8001",
+      "Ort": "Zürich",
+      "AHV-Nummer": "756.1234.5678.90",
+      "Zivilstand": "verheiratet",
+      "Steuerjahr": "2024",
+      "Bruttoeinkommen": "120000",
+      "Abzüge": "15000",
+      "Reineinkommen": "105000"
+    },
+    "accepted_fields": ["Nachname", "Vorname", "Strasse", "PLZ", "Ort", "AHV-Nummer", "Zivilstand", "Steuerjahr"],
+    "language": "de"
+  },
+  {
+    "id": "form_002",
+    "task": "form_extraction",
+    "image_path": "sample_data/images/ahv_form.png",
+    "question": "What is the AHV number and date of birth on this form?",
+    "expected_answer": {
+      "AHV-Nummer": "756.9876.5432.10",
+      "Geburtsdatum": "15.03.1985"
+    },
+    "accepted_fields": ["AHV-Nummer", "Geburtsdatum"],
+    "language": "de"
+  },
+  {
+    "id": "form_003",
+    "task": "form_extraction",
+    "image_path": "sample_data/images/residence_permit.png",
+    "question": "Extract the permit type and validity dates from this residence permit.",
+    "expected_answer": {
+      "Permit_Type": "B",
+      "Valid_From": "01.01.2024",
+      "Valid_Until": "31.12.2025",
+      "Nationality": "German"
+    },
+    "accepted_fields": ["Permit_Type", "Valid_From", "Valid_Until", "Nationality"],
+    "language": "en"
+  }
+]

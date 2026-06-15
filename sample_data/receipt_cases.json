@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rc_001",
+    "task": "receipt_ocr",
+    "image_path": "sample_data/images/receipt_migros.png",
+    "question": "What is the total amount on this receipt?",
+    "expected_answer": "CHF 47.30",
+    "accepted_answers": ["CHF 47.30", "47.30", "47.30 CHF", "47,30"],
+    "metadata": {"store": "Migros", "items": 5},
+    "language": "de"
+  },
+  {
+    "id": "rc_002",
+    "task": "receipt_ocr",
+    "image_path": "sample_data/images/receipt_coop.png",
+    "question": "Quel est le montant total de ce reçu?",
+    "expected_answer": "CHF 32.50",
+    "accepted_answers": ["CHF 32.50", "32.50", "32.50 CHF", "32,50"],
+    "metadata": {"store": "Coop", "items": 3},
+    "language": "fr"
+  },
+  {
+    "id": "rc_003",
+    "task": "receipt_ocr",
+    "image_path": "sample_data/images/receipt_denner.png",
+    "question": "How much VAT (MWST) was charged?",
+    "expected_answer": "CHF 2.48",
+    "accepted_answers": ["CHF 2.48", "2.48", "2.48 CHF", "2,48"],
+    "metadata": {"store": "Denner", "items": 4},
+    "language": "en"
+  }
+]

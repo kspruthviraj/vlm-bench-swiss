@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cap_001",
+    "task": "multilingual_captioning",
+    "image_path": "sample_data/images/swiss_landscape.png",
+    "question": "Describe this image in German.",
+    "expected_answer": "Ein Panoramablick auf den Matterhorn bei Sonnenaufgang, mit verschneiten Gipfeln und grünen Almwiesen im Vordergrund.",
+    "reference_answers": {
+      "de": "Ein Panoramablick auf den Matterhorn bei Sonnenaufgang, mit verschneiten Gipfeln und grünen Almwiesen im Vordergrund.",
+      "fr": "Une vue panoramique du Cervin au lever du soleil, avec des sommets enneigés et des prairies alpines vertes au premier plan.",
+      "en": "A panoramic view of the Matterhorn at sunrise, with snow-capped peaks and green alpine meadows in the foreground.",
+      "it": "Una vista panoramica del Cervino all'alba, con cime innevate e prati alpini verdi in primo piano."
+    },
+    "language": "de"
+  },
+  {
+    "id": "cap_002",
+    "task": "multilingual_captioning",
+    "image_path": "sample_data/images/zurich_street.png",
+    "question": "Décrivez cette image en français.",
+    "expected_answer": "La Bahnhofstrasse à Zurich avec des passants, des tramways et des boutiques de luxe sous un ciel bleu.",
+    "reference_answers": {
+      "de": "Die Bahnhofstrasse in Zürich mit Passanten, Strassenbahnen und Luxusgeschäften unter blauem Himmel.",
+      "fr": "La Bahnhofstrasse à Zurich avec des passants, des tramways et des boutiques de luxe sous un ciel bleu.",
+      "en": "The Bahnhofstrasse in Zurich with pedestrians, trams, and luxury shops under a blue sky.",
+      "it": "La Bahnhofstrasse a Zurigo con pedoni, tram e negozi di lusso sotto un cielo azzurro."
+    },
+    "language": "fr"
+  },
+  {
+    "id": "cap_003",
+    "task": "multilingual_captioning",
+    "image_path": "sample_data/images/bern_oldtown.png",
+    "question": "Describe this image in Italian.",
+    "expected_answer": "La vecchia città di Berna con le tipiche arcate medievali, la torre dell'orologio e il fiume Aare sullo sfondo.",
+    "reference_answers": {
+      "de": "Die Altstadt von Bern mit den typischen mittelalterlichen Lauben, dem Zytgloggeturm und der Aare im Hintergrund.",
+      "fr": "La vieille ville de Berne avec les arcades médiévales typiques, la tour de l'horloge et la rivière Aarre en arrière-plan.",
+      "en": "The old town of Bern with its characteristic medieval arcades, the clock tower, and the Aare river in the background.",
+      "it": "La vecchia città di Berna con le tipiche arcate medievali, la torre dell'orologio e il fiume Aare sullo sfondo."
+    },
+    "language": "it"
+  }
+]
